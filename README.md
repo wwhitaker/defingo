@@ -1,2 +1,0 @@
-# defingo
-basic website
