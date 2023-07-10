@@ -6,5 +6,3 @@ https://mdbootstrap.com/docs/standard/
 
 Contact:
 office@mdbootstrap.com
-
-test edit
