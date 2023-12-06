@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>defingo.net</title>
-    <meta name="description" content="William E. Whitaker, Jr | Network engineer in various disciplines including services, security, programming, tooling, support, and design." />
+    <meta name="description" content="dreaming of cooler weather" />
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
@@ -22,21 +22,22 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
     />
     <!-- MDB -->
-    <!-- <link rel="stylesheet" href="css/mdb.min.css" /> -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
       rel="stylesheet"
     />
-    <link rel="me" href="https://mastodon.social/@wewhitaker" />
+    <link href="css/defingo.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="d-flex flex-column h-100">
     <!-- Start your project here-->
 
     <!-- Background image -->
-    <div class="bg-image" style="background-image: url('img/black_background.jpg'); height: 100vh;">
+    <!-- <div class="bg-image" style="background-image: url('img/black_background.jpg'); height: 100vh;"> -->
+    <!-- <div class=""> -->
     
+    <header>
       <!-- Navbar -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <!-- Toggle button -->
           <button
@@ -77,50 +78,51 @@
             <a class="btn btn-dark px-3 m-1" href="https://www.facebook.com/willwhit" role="button">
               <i class="fab fa-facebook-f"></i>
             </a>
+            <a class="btn btn-dark px-3 m-1" href="https://www.instagram.com/wewhitaker" role="button">
+              <i class="fab fa-instagram"></i>
+            </a>
             <a class="btn btn-dark px-3 m-1" href="https://www.linkedin.com/in/wewhitaker/" role="button">
               <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a class="btn btn-dark px-3 m-1" href="https://twitter.com/wewhitaker" role="button">
-              <i class="fab fa-twitter"></i>
             </a>
           </div>
 
         </div>
       </nav>
+    </header>
 
-      <!-- Main Section-->
-      <div class="container">
-        <div class="d-flex justify-content-center align-items-center" style="height: 100vh">
+    <!-- Main Section-->
+    <main class="flex-shrink-0 mt-5">
+      <!-- <div class="d-flex justify-content-center align-items-center" style="height: 100vh"> -->
+      <div class="container p-5">
 
-          <div class="card mb-3 w-80">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img
-                  src="https://media.licdn.com/dms/image/D4E03AQGRvJhTKIq1WQ/profile-displayphoto-shrink_400_400/0/1679664580568?e=1703116800&v=beta&t=uOlGntrc3YZ44ZA9G6G_TT4TPk6qJ9E0H2yMWL4_p1M"
-                  alt="William E. Whitaker, Jr"
-                  class="img-fluid rounded-start"
-                />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">William E. Whitaker, Jr</h5>
-                  <p class="card-text">
-                    I am an information systems professional with broad background in network 
-                    support, system administration and software development focused on security 
-                    topics. Skilled in technical leadership, managing solutions for internal 
-                    and external customers, management and teams.
-                  </p>
-                </div>
+        <div class="card mb-3 w-80">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="https://media.licdn.com/dms/image/D4E03AQGRvJhTKIq1WQ/profile-displayphoto-shrink_400_400/0/1679664580568?e=1703116800&v=beta&t=uOlGntrc3YZ44ZA9G6G_TT4TPk6qJ9E0H2yMWL4_p1M"
+                alt="William E. Whitaker, Jr"
+                class="img-fluid rounded-start"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">William E. Whitaker, Jr</h5>
+                <p class="card-text">
+                  I am an information systems professional with broad background in network 
+                  support, system administration and software development focused on security 
+                  topics. Skilled in technical leadership, managing solutions for internal 
+                  and external customers, management and teams.
+                </p>
               </div>
             </div>
           </div>
-
         </div>
+
       </div>
+    </main>
 
-    </div>
-
-    <footer class="bg-dark text-center text-white">
+    <!-- Footer -->
+    <footer class="footer mt-auto bg-dark text-center text-white">
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
@@ -170,10 +172,15 @@
             <i class="fab fa-github"></i>
           </a>
 
-          <!-- Slack -->
-          <a class="btn btn-outline-light btn-floating m-1" href="https://defingo.slack.com/team/U747M1SVB" role="button">
-            <i class="fab fa-slack"></i>
+          <!-- Flickr -->
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.flickr.com/photos/wwhitaker/" role="button">
+            <i class="fab fa-flickr"></i>
           </a>
+
+          <!-- Slack -->
+          <!-- <a class="btn btn-outline-light btn-floating m-1" href="https://defingo.slack.com/team/U747M1SVB" role="button">
+            <i class="fab fa-slack"></i>
+          </a> -->
         </section>
         <!-- Section: Social media -->
       </div>
